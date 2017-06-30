@@ -1,0 +1,10 @@
+- hosts: web
+  remote_user: projecter
+
+  tasks:
+
+  - name: Delete old website version
+    file: path=/home/projecter-api state=absent
+
+  - name: Create web directory
+    file: path=/home/projecter-api state=directory

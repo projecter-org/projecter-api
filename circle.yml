@@ -1,3 +1,18 @@
 machine:
   ruby:
     version: 2.4.1
+
+  dependencies:
+    pre:
+      - pip install ansible
+      - pip install --upgrade setuptools
+  
+  test:
+
+  general:
+
+  deployment:
+    prod:
+      branch: master
+      commands:
+        - ansible-playbook deployment/deploy.yml -i deployment/vars
