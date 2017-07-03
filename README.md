@@ -1,7 +1,29 @@
 # projecter-api
 Api of projecter
 
-## Model
+## Routes
+#### GET projects
+```
+GET /api/v1/projects HTTP/1.1
+Host: api.projecter.org:3000
+Content-Type: application/json
+Cache-Control: no-cach
+```
+
+#### POST new project
+```
+POST /api/v1/projects HTTP/1.1
+Host: api.projecter.org:3000
+Content-Type: application/json
+Cache-Control: no-cache
+{
+	"lastname": "McGregor",
+	"firstname": "Allan",
+	"email": "allan.mcgregor@gmail.com" 
+}
+```
+
+## Models
 * Users
   * id
   * firstname
