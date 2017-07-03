@@ -7,7 +7,7 @@ Api of projecter
 GET /api/v1/projects HTTP/1.1
 Host: api.projecter.org:3000
 Content-Type: application/json
-Cache-Control: no-cach
+Cache-Control: no-cache
 ```
 
 #### POST new project
