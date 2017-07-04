@@ -1,6 +1,10 @@
 machine:
+  python:
+    version: 2.7.10
   ruby:
     version: 2.4.1
+  rails:
+    version: 5.1.2
 
   dependencies:
     pre:
@@ -8,8 +12,12 @@ machine:
       - pip install --upgrade setuptools
   
   test:
+    override:
+      - echo "test"
 
   general:
+    artifacts:
+      - "dist/"
 
   deployment:
     prod:
