@@ -1,4 +1,6 @@
 # projecter-api
+![CircleCI](https://circleci.com/gh/projecter-org/projecter-api.svg?style=shield)
+
 Api of projecter
 
 ## Routes
