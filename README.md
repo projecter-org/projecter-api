@@ -1,5 +1,5 @@
 # projecter-api
-![CircleCI](https://circleci.com/gh/projecter-org/projecter-api.svg?style=shield)
+![CircleCI](https://circleci.com/gh/projecter-org/projecter-api.svg?style=shield) [![Dependency Status](https://gemnasium.com/badges/github.com/projecter-org/projecter-api.svg)](https://gemnasium.com/github.com/projecter-org/projecter-api)
 
 Api of projecter
 
