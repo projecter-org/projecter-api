@@ -1,0 +1,9 @@
+---
+- hosts: all
+  user: projecter
+  vars_files:
+    - vars/defaults.yml
+    
+  roles:
+    - webserver
+    - sidekiq
